@@ -204,7 +204,7 @@ def create_rates_chart(tariff_df):
         title='Octopus Agile Half-Hour Electricity Rates (Cheapest Slots Highlighted as Stars)',
         xaxis_title='Time',
         yaxis_title='Price (p/kWh)',
-        legend_title='Period',
+        #legend_title='Period',
         hovermode='x unified',
         height=600,
     )
@@ -317,13 +317,13 @@ def create_combined_usage_cost_chart(consumption_df, cost_df=None):
             side="right",
             tickprefix='£'
         ),
-        legend=dict(
-            orientation="h",
-            yanchor="bottom",
-            y=1.02,
-            xanchor="center",
-            x=0.5
-        ),
+        #legend=dict(
+         #   orientation="h",
+          #  yanchor="bottom",
+           # y=1.02,
+            #xanchor="center",
+            #x=0.5
+        #),
         hovermode='x unified',
         height=600,
         margin=dict(t=100)
