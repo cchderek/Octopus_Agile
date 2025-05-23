@@ -207,6 +207,7 @@ def create_rates_chart(tariff_df):
         #legend_title='Period',
         hovermode='x unified',
         height=600,
+        showlegend=False
     )
     
     # Format x-axis to show time without date
