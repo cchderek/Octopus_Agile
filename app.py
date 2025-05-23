@@ -59,11 +59,11 @@ def sidebar_inputs():
         
         # Only show meter inputs if on Usage page
         if page == "Usage":
-            st.header("Meter Information")
+            #st.header("Meter Information")
             
             # Display current meter info
-            st.info(f"MPAN: {st.session_state.mpan}")
-            st.info(f"Meter Serial: {st.session_state.meter_serial}")
+            #st.info(f"MPAN: {st.session_state.mpan}")
+            #st.info(f"Meter Serial: {st.session_state.meter_serial}")
             
             # Allow editing standing charge
             standing_charge = st.number_input(
