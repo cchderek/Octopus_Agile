@@ -327,7 +327,8 @@ def create_combined_usage_cost_chart(consumption_df, cost_df=None):
         #),
         hovermode='x unified',
         height=600,
-        margin=dict(t=100)
+        margin=dict(t=100),
+        showlegend=False
     )
     
     # Format x-axis
