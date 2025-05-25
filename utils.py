@@ -385,6 +385,7 @@ def create_cost_chart(cost_df):
         barmode='stack',
         hovermode='x unified',
         height=500,
+        showlegend=False
     )
     
     # Format axis
